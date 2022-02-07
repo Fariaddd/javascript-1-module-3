@@ -59,27 +59,10 @@ console.log(someAge);
 const myObject = {  // parent
     number: 10,
     myFunction: function () {
-        console.log(this.number)
+        console.log(this, this.number)
     }
 }
 
 myObject.myFunction();
 
-
-// ternary operator
-
-const pet = "rhino";
-
-let isDangerous; // boolean
-
-if (pet === "rhino") {
-    isDangerous = true;
-
-} else {
-    isDangerous = false;
-}
-
-// condition ?  true : false
-isDangerous = pet === "ehsham" && pet === "rhino";
-
-
+c

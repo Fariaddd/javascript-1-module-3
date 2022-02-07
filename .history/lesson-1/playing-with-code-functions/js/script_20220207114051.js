@@ -47,39 +47,10 @@ function isScania() {
     let someBuildingNumber = 21;
     var someAge = 18;
     console.log(name)
-    //console.log(car)
+    console.log(car)
 }
 
-//console.log(car);
+console.log(car);
 console.log(someAge);
-//console.log(someBuildingNumber);
-
-// this is a keyword..
-
-const myObject = {  // parent
-    number: 10,
-    myFunction: function () {
-        console.log(this.number)
-    }
-}
-
-myObject.myFunction();
-
-
-// ternary operator
-
-const pet = "rhino";
-
-let isDangerous; // boolean
-
-if (pet === "rhino") {
-    isDangerous = true;
-
-} else {
-    isDangerous = false;
-}
-
-// condition ?  true : false
-isDangerous = pet === "ehsham" && pet === "rhino";
-
+console.log(someBuildingNumber);
 

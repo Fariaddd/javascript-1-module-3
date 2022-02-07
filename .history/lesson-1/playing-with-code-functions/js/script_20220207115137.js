@@ -56,30 +56,10 @@ console.log(someAge);
 
 // this is a keyword..
 
-const myObject = {  // parent
-    number: 10,
+const myObject = {
     myFunction: function () {
-        console.log(this.number)
+        console.log(this)
     }
 }
 
 myObject.myFunction();
-
-
-// ternary operator
-
-const pet = "rhino";
-
-let isDangerous; // boolean
-
-if (pet === "rhino") {
-    isDangerous = true;
-
-} else {
-    isDangerous = false;
-}
-
-// condition ?  true : false
-isDangerous = pet === "ehsham" && pet === "rhino";
-
-

@@ -80,6 +80,6 @@ if (pet === "rhino") {
 }
 
 // condition ?  true : false
-isDangerous = pet === "ehsham" && pet === "rhino";
+isDangerous = pet === "rhino" ? true : false;
 
 

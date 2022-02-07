@@ -1,6 +1,3 @@
-
-
-
 // *** List of falsy values ****
 //
 // false

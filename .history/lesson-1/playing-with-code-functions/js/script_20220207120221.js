@@ -79,7 +79,6 @@ if (pet === "rhino") {
     isDangerous = false;
 }
 
-// condition ?  true : false
-isDangerous = pet === "ehsham" && pet === "rhino";
+isDangerous = pet === "rhino" ? true : false;
 
 
