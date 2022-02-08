@@ -23,13 +23,10 @@ function printMessage(message) {
 
 // exampele 3
 
-function getSum(numA = 0, numB = 10) {
+function getSum(numA, numB) {
     return numA + numB;
 }
 const totalSum = getSum(4, 4);
 
 console.log(totalSum);
-
-const totalSumTwo = getSum();
-console.log(totalSumTwo)
 

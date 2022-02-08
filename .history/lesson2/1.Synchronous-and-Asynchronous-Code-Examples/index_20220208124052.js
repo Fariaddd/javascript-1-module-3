@@ -1,3 +1,5 @@
+
+
 // Synchronous Code Example
 // What is a Synchronous System?
 // In a synchronous system, tasks are completed one after another.
@@ -26,28 +28,6 @@
 
 //Synchronous Code Example
 
-//console.log("I");
-//console.log("eat");
-//console.log(" Ice Cream")
-
-// lets say it takes two seconds to eat
-
-
-
-// Let's say it takes two seconds to eat
-// some ice cream. Now, let's test out an asynchronous system.
-// Write the below code in JavaScript.
-
-
 console.log("I");
-
-// This will be shown after 2 seconds
-
-setTimeout(() => {
-    console.log("eat");
-}, 2000)
-
-console.log("Ice Cream");
-
-
-// Now that you know the difference between synchronous and async operations,
+console.log("eat");
+console.log(" Ice Cream")
