@@ -39,7 +39,7 @@ if (test) {
 // example 2 real life
 
 
-const carsDato = [
+const carDato = [
     {
         make: "tesla",
         ifElectric: true
@@ -50,13 +50,6 @@ const carsDato = [
 
     }
 ]
-
-carsDato.forEach(function (car) {
-    console.log(car);
-    if (!car.ifElectric) {
-        console.log("car name is " + car.make + " and it is not")
-    }
-});
 
 
 // rather than having to check for both null and undefined like this:
@@ -79,5 +72,3 @@ carsDato.forEach(function (car) {
 
 
 // Example 2 Real life example
-
-// query string...

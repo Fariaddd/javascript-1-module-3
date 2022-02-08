@@ -79,5 +79,3 @@ carsDato.forEach(function (car) {
 
 
 // Example 2 Real life example
-
-// query string...
