@@ -21,11 +21,11 @@ const pokemonsContainer = document.querySelector(".pokemons");
 //         }
 //     }
 
-//kitchen();  // run the code
+kitchen();  // run the code
 
 async function getpokemonNames() {
     try {
-        const response = await fetch(APIUrl)
+        const response = await fetch; (APIUrl);
         console.log(response);
         const responseJSON = await response.JSON();
         console.log(responseJSON);
@@ -39,7 +39,7 @@ async function getpokemonNames() {
 
     }
     catch (error) {
-        console.log("some error happend ", error)
+        console.log("some error happend : (", error)
     }
 
 

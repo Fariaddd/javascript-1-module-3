@@ -1,7 +1,7 @@
 // mt point
 //http://pok3aoi.co/api/v2/pokemon?offset=20&limit=40
 
-const APIUrl = "http://pok3aoi.co/api/v2/pokemon?offset=20&limit=40";
+const APIUrl = "https://www.fruityvice.com/api/fruit/all";
 
 // select pokemon container which has a pokeman class
 
@@ -25,8 +25,8 @@ const pokemonsContainer = document.querySelector(".pokemons");
 
 async function getpokemonNames() {
     try {
-        const response = await fetch(APIUrl)
-        console.log(response);
+        const response = await fetch(APIUrl);
+        //console.log(response);
         const responseJSON = await response.JSON();
         console.log(responseJSON);
         const pokemonsData = responseJSON.result
@@ -39,7 +39,7 @@ async function getpokemonNames() {
 
     }
     catch (error) {
-        console.log("some error happend ", error)
+        console.log("some error happend : (", error)
     }
 
 

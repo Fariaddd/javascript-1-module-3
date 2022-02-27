@@ -39,7 +39,7 @@ async function getpokemonNames() {
 
     }
     catch (error) {
-        console.log("some error happend ", error)
+        console.log("some error happend : (", error)
     }
 
 

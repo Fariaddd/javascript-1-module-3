@@ -7,7 +7,7 @@ const APIUrl = "http://pok3aoi.co/api/v2/pokemon?offset=20&limit=40";
 
 
 
-const pokemonsContainer = document.querySelector(".pokemons");
+// const pokemonsContainer = document.querySelector(".pokemons");
 // async function kitchen() {
 //     async function kitchen() {
 
@@ -21,11 +21,11 @@ const pokemonsContainer = document.querySelector(".pokemons");
 //         }
 //     }
 
-//kitchen();  // run the code
+kitchen();  // run the code
 
 async function getpokemonNames() {
     try {
-        const response = await fetch(APIUrl)
+        const response = await fetch; (APIUrl);
         console.log(response);
         const responseJSON = await response.JSON();
         console.log(responseJSON);
@@ -39,12 +39,12 @@ async function getpokemonNames() {
 
     }
     catch (error) {
-        console.log("some error happend ", error)
+        console.log("some error happend : (", error)
     }
 
 
 }
 getpokemonNames();
 
-
+}
 

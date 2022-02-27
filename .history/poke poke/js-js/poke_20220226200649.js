@@ -25,21 +25,21 @@ const pokemonsContainer = document.querySelector(".pokemons");
 
 async function getpokemonNames() {
     try {
-        const response = await fetch(APIUrl)
-        console.log(response);
+        const response = await fetch(APIUrl);
+        //console.log(response);
         const responseJSON = await response.JSON();
         console.log(responseJSON);
         const pokemonsData = responseJSON.result
         console.log(pokemonsData);
         for (let i = 0; i < pokemonsData.lenght; i++) {
-            console.log(pokemonsData);
+            console.log(pokemonsData[i]);
             pokemonsContainer.innerHTML += `<li><span>${pokemonsData[i].name}</span></li>`
         }
 
 
     }
     catch (error) {
-        console.log("some error happend ", error)
+        console.log("some error happend : (", error)
     }
 
 
